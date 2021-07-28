@@ -1,0 +1,150 @@
+/*======================
+    google font
+======================*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+/*======================
+    common css
+======================*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+.btn {
+    background: #E76F51;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 46px;
+    color: #fff;
+    border: 1px solid #E76F51;
+}
+img{
+    width: 100%;
+}
+.mb-45{
+    margin-bottom: 45px;
+}
+.mb-120{
+    margin-bottom: 120px;
+}
+
+/*======================
+    hero section
+======================*/
+#hero {
+    background: #264653;
+    padding: 80px 0;
+}
+.hero-text h5 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #fff;
+    font-weight: 300;
+}
+.hero-text h2 {
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-text p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #E0E0E0;
+    font-weight: 300;
+    max-width: 456px;
+    margin-top: 10px;
+}
+.hero-btn {
+    margin-top: 20px;
+}
+.hero-text .modal-title {
+    color: #264653;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-text .modal-body p {
+    color: #828282;
+    font-weight: 400;
+}
+
+/*======================
+    fetured section
+======================*/
+#fetured {
+    padding: 64px 0;
+}
+.site-title h3 {
+    font-size: 48px;
+    line-height: 72px;
+    color: #000;
+    font-weight: 600;
+}
+.site-title h4 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #E76F51;
+    margin-top: -5px;
+    position: relative;
+}
+.site-title h4::before {
+    position: absolute;
+    content: '';
+    width: 59px;
+    height: 1px;
+    background: #E76F51;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.fetured-single-img:nth-child(2n+1) .fetured-img img {
+    mix-blend-mode: luminosity;
+}
+.fetured-img img {
+    max-width: 288px;
+    display: block;
+    margin: auto;
+}
+
+/*======================
+    latest news section
+======================*/
+#latest-news {
+    padding: 100px 0;
+}
+.single-news {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.single-news .card {
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.single-news .card-body {
+    padding: 0;
+}
+.single-news .card-title {
+    font-size: 26px;
+    line-height: 40px;
+    font-weight: 600;
+    color: #18191F;
+    margin-top: 30px;
+}
+.single-news .card-body p {
+    font-size: 16px;
+    line-height: 32px;
+    color: #6C6C6C;
+    margin-bottom: 30px;
+}
+.single-news .btn {
+    padding: 15px 36px;
+}
